@@ -1,0 +1,9 @@
+.container {
+    border: 2px solid black;
+    display: grid;
+    width: 80vw;
+    height: 70vh;
+    justify-self: center;
+    grid-template-columns: repeat(150, 1fr);
+}
+

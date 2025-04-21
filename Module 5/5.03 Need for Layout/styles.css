@@ -1,0 +1,22 @@
+header , footer {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.sidebar {
+    background-color: aqua;
+    display: inline-block;
+    width: 30%;
+}
+
+.main-content {
+    background-color: lightgreen;
+    display: inline-block;
+}
