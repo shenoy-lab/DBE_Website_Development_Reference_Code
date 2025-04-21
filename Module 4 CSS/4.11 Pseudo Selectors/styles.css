@@ -1,0 +1,33 @@
+button:hover {
+    color: chocolate;
+    background-color: chartreuse;
+    text-decoration: underline;
+}
+
+button:active {
+    color: aqua;
+    background-color: black;
+}
+
+li:nth-of-type(7n) {
+    background-color: khaki;
+}
+
+
+p::first-letter {
+    font-size: 60px;
+    color: blue;
+}
+
+p + p::first-line {
+    color: cadetblue;
+}
+
+::selection {
+    background-color: orange;
+}
+
+p::selection {
+    background-color: darksalmon;
+    text-decoration: underline;
+}

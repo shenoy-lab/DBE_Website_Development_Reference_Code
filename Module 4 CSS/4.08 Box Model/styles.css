@@ -1,0 +1,33 @@
+.box1 {
+    background-color: aqua;
+    height: 300px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin: 30px;
+}
+
+.box2 {
+    background-color: blueviolet;
+    height: 300px;
+    width: 50%;
+    border-width: 10px 20px 10px 20px;
+    border-color: brown green red black;
+    border-style: solid;
+    border-radius: 20px 180px;
+    margin: 20px;
+}
+
+.measure {
+    width: 240px;
+    height: 10px;
+    background-color: black;
+
+}
+
+.grouping {
+    border: 20px solid greenyellow;
+    text-align: center;
+    padding: 20px;
+}

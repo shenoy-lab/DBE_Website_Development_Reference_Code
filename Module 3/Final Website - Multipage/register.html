@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Register for IIMB Fest</title>
+	</head>
+	<body>
+        <header>
+            <img src="https://www.iimb.ac.in/sites/default/files/inline-images/IIMB-Logo.png" alt="IIMB Logo" height="40px">
+            <H1>IIMB Fest - 2024</H1>
+            <p>Welcome to the best fest in Bangalore. Hope you have a great time.</p>
+
+            <nav>
+                <a href="./index.html">Click here to go back to home page</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>Register for the Fest</h2>
+                <form action="/register">
+                    <label for="name">Enter your name:</label>
+                    <input type="text" name="name" id="name" required minlength="2" maxlength="12">
+                    <br><br>
+                    <label for="email">Enter your Email:</label>
+                    <input type="email" name="email" id="email">
+                    <br><br>
+                    <label for="t_shirt_size">Select T-Shirt Size:</label>
+                    <select name="t_shirt_size" id="t_shirt_size">
+                        <option value="">--please select option--</option>
+                        <option value="38">38</option>
+                        <option value="40">40</option>
+                        <option value="42">42</option>
+                        <option value="44">44</option>
+                    </select>
+                    <br><br>
+                    <label for="checkbox1">Do you agree to all conditions?</label>
+                    <input type="checkbox" name="tnc" id="checkbox1" required>
+                    <br><br>
+                    <label for="alumni">Alumni:</label>
+                    <input type="radio" name="attendee_type" id="alumni" value="alumni">
+                    <label for="student">Student:</label>
+                    <input type="radio" name="attendee_type" id="student" value="student">
+                    <br><br>
+        
+                    <button type="submit">Register</button>
+                </form>
+
+
+            </section>
+
+    
+
+            
+        </main>
+
+
+
+
+
+    </body>
+</html>

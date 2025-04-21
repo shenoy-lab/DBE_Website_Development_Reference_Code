@@ -1,0 +1,20 @@
+.Class-ABC {
+    color: darkorange;
+    color: aquamarine;
+}
+
+#ID-ABC {
+    color: darkblue;
+    color: gray;
+}
+
+h2 {
+    color: green !important;
+    color: brown;
+}
+
+h2 {
+    color: pink;
+    color: cornflowerblue !important;
+}
+

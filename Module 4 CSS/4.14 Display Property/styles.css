@@ -1,0 +1,29 @@
+div {
+    height: 200px;
+    border: 2px solid green;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+}
+
+span {
+    height: 20px;
+    border: 2px solid green;
+    width: 60px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+    padding: 0px;
+}
+
+button {
+    display: none;
+}

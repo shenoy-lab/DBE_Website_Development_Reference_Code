@@ -1,0 +1,15 @@
+img {
+    float: right;
+}
+
+#other {
+    float: left;
+}
+
+p {
+    clear: right;
+}
+
+#p-other {
+    clear: left;
+}

@@ -1,0 +1,40 @@
+div > div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    display: inline-block;
+    margin: 10px;
+}
+
+.static-position > .box2 {
+    position: static;
+    top: 50px;
+    left: 50px;
+}
+
+.relative-position > .box2 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.absolute-position > .box2 {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.absolute-position {
+    position: relative;
+}
+
+.fixed-position > .box2 {
+    position: fixed;
+    top: 100px;
+    left: 500px;
+}
+
+.sticky-position > .box2 {
+    position: sticky;
+    top: 50px;
+}

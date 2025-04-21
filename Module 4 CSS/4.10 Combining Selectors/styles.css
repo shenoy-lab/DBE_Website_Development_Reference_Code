@@ -1,0 +1,23 @@
+.container p {
+    color: orange;
+}
+
+.parent > p {
+    color: green;
+}
+
+h2 + h3 {
+    color: blueviolet;
+}
+
+input[type="checkbox"] + label {
+    color: dodgerblue;
+}
+
+#heading4 , .h5 , h6 {
+    color: indigo;
+}
+
+button.asd {
+    color:  red;
+}

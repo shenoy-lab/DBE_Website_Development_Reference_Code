@@ -1,0 +1,13 @@
+.highlight {
+    color: blue;
+}
+
+.firstword {
+    font-size: x-large;
+    color: brown;
+}
+
+.first-few-lines {
+    text-decoration: underline solid black;
+    background-color: aqua;
+}
